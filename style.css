@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    background:linear-gradient(to right,darkviolet,violet);
+    display: flex;
+    justify-content: space-evenly;
+}
+.header ul{
+     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.header ul li{
+    padding: 1em;
+  
+    border-right: 1px solid  white;
+    transition: .4s ease-in-out;
+  
+
+}
+.header ul li:first-child{
+    border-left: 1px solid white;
+}
+
+.header ul li:hover{
+    background: rgba(137, 7, 230, 0.5);
+    transform:translateY(6px);
+}
+.header form{
+    align-self: center;
+  
+}
+.header img{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    transition: .4s ease-in-out;
+}
+.header img:hover{
+   
+    transform:translateY(6px);
+}
+.header form input{
+    border: 1px solid grey;
+    border-radius: 50px;
+    height: 5vh;
+    width: 15vw;
+    padding-left: 20px;
+    box-shadow: 2px 3px 2px rgba(20,20,20,.2);
+}
+
+.banner{
+height: 90vh;
+background:  url(9tLO.gif) no-repeat center , linear-gradient(to right,rgba(216, 113, 216, 0.5), rgba(148, 0, 211,.5)) ;
+position: relative;
+}
+.banner h1{
+    color: rgba(172, 95, 205,.2);
+    font-size: 5vw;
+    transition: .3s ;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translateX(-35%);
+
+}
+.banner h1:hover{
+    color: rgba(172, 95, 205,.9);
+}
+.skills{
+    display:flex;
+    margin: 4em 0;
+    justify-content: space-evenly;
+
+}
+.skills .skil img{
+    height: 50%;
+    width: 50%;
+}
+.skills .skil {
+    margin: 1.7em;
+    padding: 1em;
+    background:linear-gradient(to right,darkviolet,violet) ;
+    height: 60vh;
+    width: 20vw;
+transform: skewY(-10deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: .3s ;
+border-radius: 70px;
+box-shadow: 0 6px 4px 10px rgba(20,20,20,.2);
+}
+.skills .skil h3{
+    margin: 1em 0 .4em 0;
+    color: white;
+}
+.skills .skil p{
+   color: white;
+   margin:.4em 0;
+   
+}
+
+.skills .skil:hover{
+    background:linear-gradient(to right,violet, darkviolet) ;
+}
